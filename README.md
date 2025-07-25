@@ -46,6 +46,10 @@ There are two ways to install Wave, you can install it via the automated install
 
 Click here to <a href="https://devdojo.com/wave/docs/install" target="_blank">view the full installation instructions</a>.
 
+## Agent Setup
+
+For step-by-step instructions on how to create a Knowledge Base (KB) and an Agent using `doctl` CLI, please refer to the [agent/README.md](agent/README.md) guide.
+
 ## Support the Project
 
 The best way to support this project is to support us by subscribing to a <a href="https://devdojo.com/pro">DevDojo Pro</a> account. This will give you access to <a href="https://devdojo.com/wave/pro">premium content</a> to help you build your SaaS even quicker. Also, make sure to tell your friends and <a href="https://github.com/thedevdojo/wave/compare" target="_blank">submit a PR</a> if you want to contribute.
