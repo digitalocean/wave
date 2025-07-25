@@ -38,11 +38,16 @@ You can view a <a href="https://devdojo.com/wave/demo" target="_blank">live demo
 
 You can easily deploy Wave to [DigitalOcean App Platform](https://www.digitalocean.com/products/app-platform/) with just a few clicks. All you need is a [DigitalOcean account](https://cloud.digitalocean.com/registrations/new).
 
-### 1. One-Click Deploy
+### 1. Deploying the Application
 
-Click the button below to deploy Wave from the `main` branch:
+Click this button to deploy the app to the DigitalOcean App Platform. If you are not logged in, you will be prompted to log in with your DigitalOcean account.
 
-<a href="https://cloud.digitalocean.com/apps/new?repo=https://github.com/diabhey/wave/tree/main" target="_blank"><img src="https://www.deploytodo.com/do-btn-blue.svg" width="240" alt="Deploy to DO"></a>
+<a href="https://cloud.digitalocean.com/apps/new?repo=https://github.com/digitalocean/wave/tree/main" target="_blank"><img src="https://www.deploytodo.com/do-btn-blue.svg" width="240" alt="Deploy to DO"></a>
+
+> Using this button disables the ability to automatically re-deploy your app when pushing to a branch or tag in your repository as you are using this repo directly. If you want to automatically re-deploy your app, fork the GitHub repository to your account so that you have a copy of it stored to the cloud. Click the Fork button in the GitHub repository and follow the on-screen instructions.
+
+After forking the repo, you should now be viewing this README in your own GitHub org (e.g. **https://github.com/< your-org >/wave**). To deploy the new repo, visit https://cloud.digitalocean.com/apps and click Create App. Then, click GitHub, select the repository you created and select the main branch.
+
 
 ### 2. Configure Your App
 
